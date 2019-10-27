@@ -5,7 +5,9 @@ event:
 location:
   city: Rawa Mazowiecka
   country: pl
-title: 'Introduction to the Semantic Web'
+talk:
+  slug: semantic-web
+  title: 'Introduction to the Semantic Web'
 links:
   slides: https://speakerdeck.com/aboks/introduction-to-the-semantic-web-phpce-2017
   joindin: https://joind.in/talk/eb31e

@@ -5,7 +5,9 @@ event:
 location:
   city: Amsterdam
   country: nl
-title: 'Of representation and interpretation: A unified theory'
+talk:
+  slug: representation-interpretation
+  title: 'Of representation and interpretation: A unified theory'
 links:
   slides: https://speakerdeck.com/aboks/of-representation-and-interpretation-a-unified-theory-dutch-php-conference-2019
   video: https://www.youtube.com/watch?v=K2zS6vbBb9A

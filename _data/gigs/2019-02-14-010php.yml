@@ -5,7 +5,9 @@ event:
 location:
   city: Rotterdam
   country: nl
-title: 'Introduction to the Semantic Web'
+talk:
+  slug: semantic-web
+  title: 'Introduction to the Semantic Web'
 links:
   slides: https://speakerdeck.com/aboks/introduction-to-the-semantic-web-010php-february-2019
   joindin: https://joind.in/talk/53955

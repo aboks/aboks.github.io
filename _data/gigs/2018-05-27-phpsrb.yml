@@ -5,7 +5,9 @@ event:
 location:
   city: Belgrade
   country: rs
-title: 'Getting started with PHP core development'
+talk:
+  slug: php-core
+  title: 'Getting started with PHP core development'
 links:
   slides: https://speakerdeck.com/aboks/getting-started-with-php-core-development-php-serbia-2018
   joindin: https://joind.in/talk/7d50f

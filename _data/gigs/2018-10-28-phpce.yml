@@ -5,7 +5,9 @@ event:
 location:
   city: Prague
   country: cz
-title: 'Of representation and interpretation: A unified theory'
+talk:
+  slug: representation-interpretation
+  title: 'Of representation and interpretation: A unified theory'
 links:
   slides: https://speakerdeck.com/aboks/of-representation-and-interpretation-a-unified-theory-phpce-2018
   joindin: https://joind.in/talk/221c8

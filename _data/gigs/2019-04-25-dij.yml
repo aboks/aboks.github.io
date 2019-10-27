@@ -5,7 +5,9 @@ event:
 location:
   city: Apeldoorn
   country: nl
-title: 'Of representation and interpretation: A unified theory'
+talk:
+  slug: representation-interpretation
+  title: 'Of representation and interpretation: A unified theory'
 links:
   slides: https://speakerdeck.com/aboks/of-representation-and-interpretation-a-unified-theory-ode-aan-de-code-number-11
   video: https://www.youtube.com/watch?v=nh8T-kC9RoY

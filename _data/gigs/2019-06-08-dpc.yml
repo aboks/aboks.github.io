@@ -5,7 +5,9 @@ event:
 location:
   city: Amsterdam
   country: nl
-title: 'PageRank all the things!'
+talk:
+  slug: pagerank
+  title: 'PageRank all the things!'
 links:
   slides: https://speakerdeck.com/aboks/pagerank-all-the-things-dutch-php-conference-2019
   video: https://www.youtube.com/watch?v=AeZJnG9lfRs

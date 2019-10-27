@@ -5,7 +5,9 @@ event:
 location:
   city: Verona
   country: it
-title: 'Of representation and interpretation: A unified theory'
+talk:
+  slug: representation-interpretation
+  title: 'Of representation and interpretation: A unified theory'
 links:
   slides: https://speakerdeck.com/aboks/of-representation-and-interpretation-a-unified-theory-phpday-2019
   video: https://www.youtube.com/watch?v=Uvy26uMys2c

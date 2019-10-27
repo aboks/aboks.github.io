@@ -5,7 +5,9 @@ event:
 location:
   city: Amsterdam
   country: nl
-title: 'Introduction to the Semantic Web'
+talk:
+  slug: semantic-web
+  title: 'Introduction to the Semantic Web'
 links:
   slides: https://speakerdeck.com/aboks/introduction-to-the-semantic-web-dutch-php-conference-2017
   joindin: https://joind.in/talk/21299

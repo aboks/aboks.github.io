@@ -5,7 +5,9 @@ event:
 location:
   city: Amsterdam
   country: nl
-title: 'Getting started with PHP core development'
+talk:
+  slug: php-core
+  title: 'Getting started with PHP core development'
 links:
   slides: https://speakerdeck.com/aboks/getting-started-with-php-core-development-dutch-php-conference-2018
   joindin: https://joind.in/talk/4783a

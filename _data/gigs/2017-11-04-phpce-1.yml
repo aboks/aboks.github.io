@@ -1,0 +1,11 @@
+date: 2017-11-04
+event:
+  name: PHP Central Europe 2017
+  link: https://2017.phpce.eu/
+location:
+  city: Rawa Mazowiecka
+  country: pl
+title: 'Getting started with PHP core development'
+links:
+  slides: https://speakerdeck.com/aboks/getting-started-with-php-core-development-phpce-2017
+  joindin: https://joind.in/talk/3e087

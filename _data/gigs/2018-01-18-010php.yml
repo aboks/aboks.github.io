@@ -1,0 +1,11 @@
+date: 2018-01-18
+event:
+  name: 010PHP meetup
+  link: https://www.meetup.com/nl-NL/010PHP/events/238280110/
+location:
+  city: Rotterdam
+  country: nl
+title: 'Getting started with PHP core development'
+links:
+  slides: https://speakerdeck.com/aboks/getting-started-with-php-core-development-010php-january-2018
+  joindin: https://joind.in/talk/0649d

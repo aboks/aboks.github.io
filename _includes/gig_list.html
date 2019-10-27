@@ -1,0 +1,44 @@
+<table>
+    <thead>
+    <tr>
+        <th scope="col">Date</th>
+        <th scope="col">Talk</th>
+        <th scope="col">Event</th>
+        <th scope="col">Location</th>
+        <th scope="col">Links</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% assign sorted_gigs = include.gigs | sort: "date" %}
+    {% for gig in sorted_gigs reversed %}
+    <tr>
+        <td>{{ gig.date | date_to_string }}</td>
+        <td>
+            {% if gig.talk.slug %}
+            <a href="talks/{{ gig.talk.slug }}.html">{{ gig.talk.title }}</a>
+            {% else %}
+            {{ gig.talk.title }}
+            {% endif %}
+        </td>
+        <td>
+            <a href="{{ gig.event.link }}">{{ gig.event.name }}</a>
+        </td>
+        <td>
+            <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/{{ gig.location.country }}.svg" width="18" alt="{{ gig.location.country }}" />
+            {{ gig.location.city }}
+        </td>
+        <td>
+            {% if gig.links.slides %}
+            <a href="{{ gig.links.slides }}">slides</a><br />
+            {% endif %}
+            {% if gig.links.joindin %}
+            <a href="{{ gig.links.joindin }}">feedback</a><br />
+            {% endif %}
+            {% if gig.links.video %}
+            <a href="{{ gig.links.video }}">video</a><br />
+            {% endif %}
+        </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>

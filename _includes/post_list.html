@@ -1,0 +1,22 @@
+{% assign sorted_posts = include.posts | sort: "date" %}
+{% for post in sorted_posts reversed %}
+<h2>
+{% if post.external %}
+<a href="{{ post.external.url }}">
+    {{ post.title }}
+    <img src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/link-external.svg" width="16" alt="External" />
+</a>
+{% else %}
+<a href="{{ post.url }}">{{ post.title }}</a>
+{% endif %}
+</h2>
+
+<p>{{post.excerpt}}</p>
+
+<p><small>
+    Published {{ post.date | date_to_string }}
+    {% if post.external %}
+    at {{ post.external.location }}
+    {% endif %}
+</small></p>
+{% endfor %}

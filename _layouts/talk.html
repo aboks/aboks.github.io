@@ -5,3 +5,8 @@ layout: default
 <h1>{{ page.title }}</h1>
 
 {{ content }}
+
+<h2>Presented at</h2>
+
+{% assign talk_gigs = site.data.gigs | where: "talk.slug", page.slug %}
+{% include gig_list.html gigs=talk_gigs %}

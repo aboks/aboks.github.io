@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: talk
 title:  "Of representation and interpretation: A unified theory"
 ---
 

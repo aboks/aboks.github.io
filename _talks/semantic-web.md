@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: talk
 title:  "The Web of the Future: Introduction to the Semantic Web"
 ---
 

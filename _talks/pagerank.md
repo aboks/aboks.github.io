@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: talk
 title:  "PageRank all the things!"
 ---
 

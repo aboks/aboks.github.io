@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: talk
 title:  "Getting started with PHP core development"
 ---
 

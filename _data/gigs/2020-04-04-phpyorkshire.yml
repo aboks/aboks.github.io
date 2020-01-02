@@ -1,0 +1,11 @@
+date: 2020-04-04
+event:
+  name: PHP Yorkshire 2020
+  link: https://www.phpyorkshire.co.uk/
+location:
+  city: York
+  country: gb
+talk:
+  slug: representation-interpretation
+  title: 'Of representation and interpretation: A unified theory'
+links:

@@ -1,0 +1,12 @@
+date: 2020-05-14
+event:
+  name: phpDay 2020
+  link: https://2020.phpday.it/
+location:
+  city: Verona
+  country: it
+talk:
+  slug: metrics-workshop
+  title: 'Workshop: Metrics-driven refactoring and quality'
+links:
+

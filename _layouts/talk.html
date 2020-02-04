@@ -9,4 +9,8 @@ layout: default
 <h2>Presented at</h2>
 
 {% assign talk_gigs = site.data.gigs | where: "talk.slug", page.slug %}
-{% include gig_list.html gigs=talk_gigs %}
+{% if talk_gigs.first %}
+    {% include gig_list.html gigs=talk_gigs %}
+{% else %}
+    This talk is not scheduled yet.
+{% endif %}

@@ -12,7 +12,13 @@
     {% assign sorted_gigs = include.gigs | sort: "date" %}
     {% for gig in sorted_gigs reversed %}
     <tr>
-        <td>{{ gig.date | date_to_string }}</td>
+        <td>
+            {% if gig.cancelled %}
+            Cancelled (COVID-19)
+            {% else %}
+            {{ gig.date | date_to_string }}
+            {% endif %}
+        </td>
         <td>
             {% if gig.talk.slug %}
             <a href="talks/{{ gig.talk.slug }}.html">{{ gig.talk.title }}</a>

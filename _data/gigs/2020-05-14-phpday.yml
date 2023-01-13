@@ -1,4 +1,5 @@
 date: 2020-05-14
+cancelled: true
 event:
   name: phpDay 2020
   link: https://2020.phpday.it/

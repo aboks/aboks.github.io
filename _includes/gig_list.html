@@ -35,8 +35,12 @@
         </td>
         <td>
             {% if gig.cancelled %}<s>{% endif %}
+            {% if gig.location.online %}
+            Online
+            {% else %}
             <img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/4x3/{{ gig.location.country }}.svg" width="18" alt="{{ gig.location.country }}" />
             {{ gig.location.city }}
+            {% endif %}
             {% if gig.cancelled %}</s>{% endif %}
         </td>
         <td>

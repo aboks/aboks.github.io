@@ -1,0 +1,11 @@
+date: 2020-09-10
+event:
+  name: PHPBenelux virtual meetup
+  link: https://www.meetup.com/phpbenelux/events/273015264/
+location:
+  online: true
+talk:
+  slug: representation-interpretation
+  title: 'Of representation and interpretation: A unified theory'
+links:
+  slides: https://speakerdeck.com/aboks/of-representation-and-interpretation-a-unified-theory-phpbenelux-meetup
